@@ -78,6 +78,10 @@ img{
     align-items: center;
 }
 
+.nav .current{
+    color: var(--focus-text-color);
+}
+
 .nav .current::after{
     content: "";
     position: absolute;
